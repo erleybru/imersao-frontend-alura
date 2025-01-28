@@ -2,25 +2,43 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Frontend exibindo a tela similar ao Spotify">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Erley Barbosa da Silva">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Spotify Imersão</title>
-    <!-- icone -->
-    <!-- informacao para os buscadores -->
-    <!-- autor -->
-    <!-- descricao -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 </head>
 <body>
-    <h1>Spotify</h1>
     <div class="sidebar">
-        <nav>
-            <div>
-                <a href="index.html">Home
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="index.html">
                     <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
-                <a href="index.html">Buscar</a>
-                <a href="index.html">Sua Biblioteca</a>                
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
